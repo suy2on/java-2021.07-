@@ -34,9 +34,16 @@ public class AccountingApp {
 ~~~
 
 ### 3. 앱 command에서 실행 (java가 깔려있는 컴퓨터여야함)
-- 프로젝트 경로복사  
+- 프로젝트 경로복사
 - command창에서 그 경로로 이동
 - ls -al 로 확인
 - .class 파일 만들어주기 위해 (실행파일) javac AccountingApp.java입력
 - java AccountingApp arg[0]값입력
 - 예) java AccountingApp 20000.0
+
+### 4. .java vs .class
+- java파일 : 소스코드파일, 사람이 작성
+- class파일 : compiler가 java파일을 compile하고 나서 나온 실행파일, byte로 작성
+- class파일은 JVM(java virtual machine)이 있는 컴퓨터라면 어디에서든 실행가능
+- JVM : OS에 맞게 class파일의 내용을 바꿔준다
+-> java는 JVM을 통해 운영체제에 독립적임
