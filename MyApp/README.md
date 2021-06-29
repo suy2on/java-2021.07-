@@ -45,5 +45,6 @@ public class AccountingApp {
 - java파일 : 소스코드파일, 사람이 작성
 - class파일 : compiler가 java파일을 compile하고 나서 나온 실행파일, byte로 작성
 - class파일은 JVM(java virtual machine)이 있는 컴퓨터라면 어디에서든 실행가능
-- JVM : OS에 맞게 class파일의 내용을 바꿔준다
+- JVM : OS에 맞게 class파일의 내용을 바꿔준다  
+
 -> java는 JVM을 통해 운영체제에 독립적임
